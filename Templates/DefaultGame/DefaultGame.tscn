@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Templates/DefaultGame/Entities/Tabletop.tscn" type="PackedScene" id=1]
+
+[node name="DefaultGame" type="Node2D"]
+
+[node name="Tabletop" parent="." instance=ExtResource( 1 )]
